@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDE03"
+    tools:context="com.abdallaandkhaled.aihsibmishwark.MainActivity2">
+
+    <EditText
+        android:id="@+id/addText"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="243dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edit_round"
+        android:drawableStart="@drawable/baseline_add_location_24"
+        android:ems="10"
+        android:hint="المكان الاول"
+        android:inputType="text"
+        android:shadowColor="#11B2F1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339" />
+
+    <EditText
+        android:id="@+id/addtext3"
+        android:layout_width="243dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edit_round"
+        android:drawableStart="@drawable/baseline_add_location_24"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:hint="المكان الثالث"
+
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <EditText
+        android:id="@+id/addtext4"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edit_round"
+        android:drawableStart="@drawable/baseline_add_location_24"
+        android:ems="10"
+        android:hint="المكان الرابع"
+        android:inputType="text"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <EditText
+        android:id="@+id/add2Text"
+        android:layout_width="243dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edit_round"
+        android:drawableStart="@drawable/baseline_add_location_24"
+        android:ems="10"
+        android:hint="المكان التاني"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+
+    <TextView
+        android:id="@+id/resText"
+        android:layout_width="169dp"
+        android:layout_height="193dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
+
+
+    <TextView
+        android:id="@+id/newa"
+        android:layout_width="169dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892" />
+
+    <Spinner
+        android:id="@+id/sp"
+        android:layout_width="192dp"
+        android:layout_height="103dp"
+        android:entries="@array/car"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="48dp"
+        android:layout_height="43dp"
+        android:onClick="iformationBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014"
+        app:srcCompat="@drawable/info_pro" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="349dp"
+        android:layout_height="171dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/revuelto_m" />
+
+    <ImageView
+        android:id="@+id/gol"
+        android:layout_width="76dp"
+        android:layout_height="53dp"
+        android:onClick="infobtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/telephone" />
+
+    <ProgressBar
+        android:id="@+id/progres"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        android:progressBackgroundTint="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/resText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/newa"
+        app:layout_constraintTop_toBottomOf="@+id/addtext4" />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_round"
+        android:onClick="show"
+        android:text="احسب مشوارك"
+        app:backgroundTint="#0B5BE4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addtext4"
+        app:layout_constraintVertical_bias="0.955" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

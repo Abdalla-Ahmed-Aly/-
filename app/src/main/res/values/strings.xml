@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Gasoline consumption for the car</string>
+    <string name="car" />
+    <array name="car">
+        <item>select car or cc</item>
+        <item>FIAT</item>
+        <item>JEEP</item>
+        <item>Reno</item>
+        <item>Peugeot</item>
+        <item>Mg</item>
+        <item>Verna</item>
+        <item>BMW</item>
+        <item>Mercedes</item>
+        <item>Citreon</item>
+        <item>Toyota</item>
+        <item>Nissan</item>
+        <item>Lada</item>
+        <item>Kia Spotrage</item>
+        <item>Volvo</item>
+        <item>Mini Copper</item>
+        <item>Mitsubishi lancer</item>
+        <item>Chevrolet</item>
+        <item>Suzuki</item>
+        <item>Rang Rover</item>
+        <item>Porsche</item>
+
+        <item>1000 cc</item>
+        <item>1500 cc</item>
+        <item>2000 cc</item>
+        <item>2500 cc</item>
+        <item>3000 cc</item>
+        <item>3500 cc</item>
+        <item>4000 cc</item>
+        <item>4500 cc</item>
+        <item>5000 cc</item>
+        <item>5500 cc</item>
+        <item>6000 cc</item>
+        <item>6500 cc</item>
+        <item>7000 cc</item>
+        <item>7500 cc</item>
+        <item>8000 cc</item>
+        <item>8500 cc</item>
+        <item>9000 cc</item>
+
+    </array>
+    <array name="where">
+        <item>انا فين</item>
+        <item>هدخل المكان بنفسي</item>
+
+
+    </array>
+
+
+</resources>

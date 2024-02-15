@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abdallaandkhaled.aihsibmishwark.usage1">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="461dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="طريقة الاستعمال\n\n1: إعطاء الصلاحية لفتح الموقع دائما\n2: فتح الانترنت دائما عند الاستخدام\n3: برجاء وضع على الأقل عنوانين أو أكثر لأنه يتم حساب مسافة من العنوان الأول إلى باقي المواقع\n4: برجاء كتابة العنوان بالتفصيل حتى يعطيك النتيجة دقيقة\n5: عليك الانتظار بعد الضغط على زر احسب مشوارك مدة من 3 ثوانٍ إلى 6 ثوانٍ حسب سرعة الانترنت الخاصة بك\n6: هذا برنامج من الممكن أن تكون الحسابات مسافة فيها خطأ صغير"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:shadowColor="#FF0000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:lineSpacingExtra="4dp"
+        android:padding="16dp"
+    />
+
+
+</LinearLayout>
